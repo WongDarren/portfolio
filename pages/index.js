@@ -98,28 +98,29 @@ const Page = () => {
           </Heading>
           <List>
             <ListItem>
-              <Link href="https://github.com/WongDarren" target="_blank"></Link>
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<Icon as={IoLogoGithub} />}
-              >
-                @WongDarren
-              </Button>
+              <Link href="https://github.com/WongDarren" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoGithub} />}
+                >
+                  @WongDarren
+                </Button>
+              </Link>
             </ListItem>
-
             <ListItem>
               <Link
                 href="https://www.linkedin.com/in/darren-wong-78639588/"
                 target="_blank"
-              ></Link>
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<Icon as={IoLogoLinkedin} />}
               >
-                LinkedIn
-              </Button>
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoLinkedin} />}
+                >
+                  LinkedIn
+                </Button>
+              </Link>
             </ListItem>
           </List>
         </Section>
