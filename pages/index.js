@@ -1,10 +1,21 @@
 import NextLink from 'next/link';
-import { Button, Container, Box, Heading, Image, Link } from '@chakra-ui/react';
+import {
+  Button,
+  Container,
+  Box,
+  Heading,
+  Image,
+  Link,
+  List,
+  ListItem,
+  Icon
+} from '@chakra-ui/react';
 import { ChevronRightIcon } from '@chakra-ui/icons';
 import Layout from '../components/layouts/article';
 import Section from '../components/section';
 import Paragraph from '../components/paragraph';
 import { BioSection, BioYear } from '../components/bio';
+import { IoLogoLinkedin, IoLogoGithub } from 'react-icons/io5';
 
 const Page = () => {
   return (
@@ -79,6 +90,38 @@ const Page = () => {
           <Paragraph>
             Tennis, Ping Pong, Anime, Powerlifting, PC Gaming
           </Paragraph>
+        </Section>
+
+        <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            On the web
+          </Heading>
+          <List>
+            <ListItem>
+              <Link href="https://github.com/WongDarren" target="_blank"></Link>
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoLogoGithub} />}
+              >
+                @WongDarren
+              </Button>
+            </ListItem>
+
+            <ListItem>
+              <Link
+                href="https://www.linkedin.com/in/darren-wong-78639588/"
+                target="_blank"
+              ></Link>
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoLogoLinkedin} />}
+              >
+                LinkedIn
+              </Button>
+            </ListItem>
+          </List>
         </Section>
       </Container>
     </Layout>
