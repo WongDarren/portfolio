@@ -1,9 +1,9 @@
-import { Container, Heading, SimpleGrid } from '@chakra-ui/react';
-import Layout from '../components/layouts/article';
-import Section from '../components/section';
-import { GridItem } from '../components/grid-item';
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
+import Layout from '../components/layouts/article'
+import Section from '../components/section'
+import { GridItem } from '../components/grid-item'
 
-import thumbCrwn from '../public/images/works/crwn_thumb.png';
+import thumbCrwn from '../public/images/works/crwn_thumb.png'
 
 const Posts = () => (
   <Layout title="Posts">
@@ -45,6 +45,6 @@ const Posts = () => (
       </Section>
     </Container>
   </Layout>
-);
+)
 
-export default Posts;
+export default Posts

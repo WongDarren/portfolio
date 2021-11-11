@@ -1,8 +1,8 @@
-import { ChakraProvider } from '@chakra-ui/provider';
-import Layout from '../components/layouts/main';
-import Fonts from '../components/fonts';
-import theme from '../lib/theme';
-import { AnimatePresence } from 'framer-motion';
+import { ChakraProvider } from '@chakra-ui/provider'
+import Layout from '../components/layouts/main'
+import Fonts from '../components/fonts'
+import theme from '../lib/theme'
+import { AnimatePresence } from 'framer-motion'
 
 const Website = ({ Component, pageProps, router }) => {
   return (
@@ -14,7 +14,7 @@ const Website = ({ Component, pageProps, router }) => {
         </AnimatePresence>
       </Layout>
     </ChakraProvider>
-  );
-};
+  )
+}
 
-export default Website;
+export default Website

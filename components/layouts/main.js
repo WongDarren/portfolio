@@ -1,7 +1,7 @@
-import Head from 'next/head';
-import Navbar from '../navbar';
-import { Box, Container } from '@chakra-ui/react';
-import { Router } from 'next/dist/client/router';
+import Head from 'next/head'
+import Navbar from '../navbar'
+import { Box, Container } from '@chakra-ui/react'
+import { Router } from 'next/dist/client/router'
 
 const Main = ({ children }) => {
   return (
@@ -17,7 +17,7 @@ const Main = ({ children }) => {
         {children}
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default Main;
+export default Main

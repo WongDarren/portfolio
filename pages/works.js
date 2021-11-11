@@ -1,10 +1,10 @@
-import { Container, Heading, SimpleGrid } from '@chakra-ui/react';
-import Layout from '../components/layouts/article';
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
+import Layout from '../components/layouts/article'
 
-import Section from '../components/section';
-import { WorkGridItem } from '../components/grid-item';
+import Section from '../components/section'
+import { WorkGridItem } from '../components/grid-item'
 
-import thumbCrwn from '../public/images/works/crwn_thumb.png';
+import thumbCrwn from '../public/images/works/crwn_thumb.png'
 
 const Works = () => {
   return (
@@ -32,7 +32,7 @@ const Works = () => {
         </SimpleGrid>
       </Container>
     </Layout>
-  );
-};
+  )
+}
 
-export default Works;
+export default Works

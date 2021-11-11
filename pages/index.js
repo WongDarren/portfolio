@@ -1,4 +1,4 @@
-import NextLink from 'next/link';
+import NextLink from 'next/link'
 import {
   Button,
   Container,
@@ -9,13 +9,13 @@ import {
   List,
   ListItem,
   Icon
-} from '@chakra-ui/react';
-import { ChevronRightIcon } from '@chakra-ui/icons';
-import Layout from '../components/layouts/article';
-import Section from '../components/section';
-import Paragraph from '../components/paragraph';
-import { BioSection, BioYear } from '../components/bio';
-import { IoLogoLinkedin, IoLogoGithub } from 'react-icons/io5';
+} from '@chakra-ui/react'
+import { ChevronRightIcon } from '@chakra-ui/icons'
+import Layout from '../components/layouts/article'
+import Section from '../components/section'
+import Paragraph from '../components/paragraph'
+import { BioSection, BioYear } from '../components/bio'
+import { IoLogoLinkedin, IoLogoGithub } from 'react-icons/io5'
 
 const Page = () => {
   return (
@@ -125,7 +125,7 @@ const Page = () => {
         </Section>
       </Container>
     </Layout>
-  );
-};
+  )
+}
 
-export default Page;
+export default Page
