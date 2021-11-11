@@ -7,8 +7,16 @@ const Main = ({ children }) => {
   return (
     <Box as="main" pb={8}>
       <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />{' '}
-        <title>Darren Wong - Home</title>{' '}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+          rel="icon"
+          type="image/ico"
+          sizes="32x32"
+          href="/images/favicon.ico"
+        />
+        <meta name="author" content="Darren Wong" />
+        <meta name="description" content="Darren's Portfolio" />
+        <title>Darren Wong - Home</title>
       </Head>
 
       <Navbar path={Router.asPath} />
