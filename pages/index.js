@@ -71,16 +71,24 @@ const Page = () => {
           </Heading>
           <BioSection>
             <BioYear>1997</BioYear>
-            Born in Daly City, California
+            Born in Daly City, California.
+          </BioSection>
+          <BioSection>
+            <BioYear>2016</BioYear>
+            Interned at a local startup to do front end web development.
+          </BioSection>
+          <BioSection>
+            <BioYear>2017</BioYear>
+            Tutored K-12 students in Math and Reading.
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            Graduated from University of Nevada, Las Vegas. Bachelor of Science
-            in Computer Science.
+            Graduated from University of Nevada, Las Vegas with a Bachelor of
+            Science in Computer Science.
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
-            Moved to Austin, TX.
+            Became a Software Developer at General Motors.
           </BioSection>
         </Section>
         <Section delay={0.3}>
