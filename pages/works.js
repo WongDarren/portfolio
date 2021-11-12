@@ -16,17 +16,7 @@ const Works = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
             <WorkGridItem id="crwn" title="Crwn Clothing" thumbnail={thumbCrwn}>
-              My first React app - a clothing e-commerce site.
-            </WorkGridItem>
-          </Section>
-          <Section>
-            <WorkGridItem id="crwn" title="Crwn Clothing" thumbnail={thumbCrwn}>
-              My first React app - a clothing e-commerce site.
-            </WorkGridItem>
-          </Section>
-          <Section>
-            <WorkGridItem id="crwn" title="Crwn Clothing" thumbnail={thumbCrwn}>
-              My first React app - a clothing e-commerce site.
+              A clothing e-commerce site.
             </WorkGridItem>
           </Section>
         </SimpleGrid>
