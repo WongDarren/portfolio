@@ -14,7 +14,7 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
+import { BioSection, BioYear } from '../components/timeline'
 import { IoLogoLinkedin, IoLogoGithub } from 'react-icons/io5'
 
 const Page = () => {
@@ -48,14 +48,17 @@ const Page = () => {
         </Box>
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
-            Works
+            Bio
           </Heading>
           <Paragraph>
-            An E-Commerce React App called{' '}
+            {/* An E-Commerce React App called{' '}
             <NextLink href="/works/crwn">
               <Link>Crwn Clothing</Link>
             </NextLink>
-            .
+            . */}
+            Darren is a software engineer who is interested in learning new
+            technologies and building projects with them. He also loves PC
+            gaming, sports, and all things food!
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
@@ -67,7 +70,7 @@ const Page = () => {
         </Section>
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            Bio
+            Timeline
           </Heading>
           <BioSection>
             <BioYear>1997</BioYear>
