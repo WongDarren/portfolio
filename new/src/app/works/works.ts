@@ -7,7 +7,7 @@ const works = [
     title: "👑 Crwn Clothing 👕",
     href: "/works/crwn-clothing",
     description:
-      "A beginner clothing e-commerce site created with React, Redux, Hooks, and GraphQL.",
+      "A super simple clothing e-commerce site created with React, Redux, Hooks, and GraphQL.",
     imageUrl: crwnImage,
     date: "September 2020",
     datetime: "2020-09-01",
