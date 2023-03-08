@@ -12,9 +12,9 @@ const works = [
     date: "September 2020",
     datetime: "2020-09-01",
     categories: [
-      { title: "React", href: "https://reactjs.org/" },
-      { title: "Redux", href: "https://redux.js.org/" },
-      { title: "GraphQL", href: "https://graphql.org/" },
+      { id: 1, title: "React", href: "https://reactjs.org/" },
+      { id: 2, title: "Redux", href: "https://redux.js.org/" },
+      { id: 3, title: "GraphQL", href: "https://graphql.org/" },
     ],
     author: {
       name: "Darren Wong",
@@ -33,9 +33,9 @@ const works = [
     date: "March 2023",
     datetime: "2023-03-01",
     categories: [
-      { title: "Vite", href: "https://reactjs.org/" },
-      { title: "MongoDB", href: "https://www.mongodb.com/" },
-      { title: "OpenAI", href: "https://openai.com/" },
+      { id: 1, title: "Vite", href: "https://reactjs.org/" },
+      { id: 2, title: "MongoDB", href: "https://www.mongodb.com/" },
+      { id: 3, title: "OpenAI", href: "https://openai.com/" },
     ],
     author: {
       name: "Darren Wong",

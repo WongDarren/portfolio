@@ -52,6 +52,7 @@ const Page = () => {
                   </time>
                   {work.categories.map(category => (
                     <a
+                      key={category.id}
                       href={category.href}
                       target={"_blank"}
                       className={
