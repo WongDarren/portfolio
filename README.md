@@ -1,6 +1,6 @@
 # Portfolio
 
-Portfolio website built with the following features: 
+Portfolio website built with the following features:
 
 ## Features
 
