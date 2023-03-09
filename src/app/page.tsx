@@ -94,7 +94,7 @@ const Page = () => {
           </div>
         </div>
         <div>
-          <div className={"-mt-16 px-2 md:mt-10"}>
+          <div className={"-mt-16 px-2 lg:mt-10"}>
             <ul role={"list"}>
               <ListItem year={"2016"}>
                 Interned at a local startup to do front end web development.
