@@ -1,5 +1,6 @@
 import crwnImage from "../../../public/works/crwn.png";
 import aiImage from "../../../public/works/ai-thing.png";
+import darrenImage from "../../../public/darren.jpg";
 
 const works = [
   {
@@ -20,7 +21,7 @@ const works = [
       name: "Darren Wong",
       role: "Personal",
       href: "https://github.com/WongDarren",
-      imageUrl: "https://avatars.githubusercontent.com/u/8741435?v=4",
+      imageUrl: darrenImage,
     },
   },
   {
@@ -41,7 +42,7 @@ const works = [
       name: "Darren Wong",
       role: "Personal",
       href: "https://github.com/WongDarren",
-      imageUrl: "https://avatars.githubusercontent.com/u/8741435?v=4",
+      imageUrl: darrenImage,
     },
   },
 ];
