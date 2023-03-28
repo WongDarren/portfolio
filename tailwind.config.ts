@@ -1,5 +1,6 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+import type { Config } from "tailwindcss";
+
+export default {
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -11,5 +12,5 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [require("@tailwindcss/line-clamp")],
-};
+  plugins: [],
+} satisfies Config;
