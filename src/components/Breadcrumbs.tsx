@@ -1,7 +1,7 @@
-"use client";
+'use client';
 
-import { ChevronRightIcon, HomeIcon } from "@heroicons/react/20/solid";
-import Link from "next/link";
+import { ChevronRightIcon, HomeIcon } from '@heroicons/react/20/solid';
+import Link from 'next/link';
 
 interface BreadcrumbsProps {
   currentPage: string;
@@ -10,51 +10,51 @@ interface BreadcrumbsProps {
 
 export default function Breadcrumbs({
   currentPage,
-  currentRoute,
+  currentRoute
 }: BreadcrumbsProps) {
   return (
-    <nav className={"flex"} aria-label={"Breadcrumb"}>
-      <ol role={"list"} className={"flex items-center space-x-4"}>
+    <nav className={'flex'} aria-label={'Breadcrumb'}>
+      <ol role={'list'} className={'flex items-center space-x-4'}>
         <li>
           <div>
-            <Link href={"/"} className={"text-gray-400 hover:text-gray-500"}>
+            <Link href={'/'} className={'text-gray-400 hover:text-gray-500'}>
               <HomeIcon
-                className={"h-5 w-5 flex-shrink-0"}
-                aria-hidden={"true"}
+                className={'h-5 w-5 flex-shrink-0'}
+                aria-hidden={'true'}
               />
-              <span className={"sr-only"}>Home</span>
+              <span className={'sr-only'}>Home</span>
             </Link>
           </div>
         </li>
         <li>
-          <div className={"flex items-center"}>
+          <div className={'flex items-center'}>
             <ChevronRightIcon
-              className={"h-5 w-5 flex-shrink-0 text-gray-400"}
-              aria-hidden={"true"}
+              className={'h-5 w-5 flex-shrink-0 text-gray-400'}
+              aria-hidden={'true'}
             />
             <Link
-              href={"/works"}
+              href={'/works'}
               className={
-                "ml-4 text-sm font-medium text-gray-500 hover:text-gray-700"
+                'ml-4 text-sm font-medium text-gray-500 hover:text-gray-700'
               }
-              aria-current={"page"}
+              aria-current={'page'}
             >
               Works
             </Link>
           </div>
         </li>
         <li>
-          <div className={"flex items-center"}>
+          <div className={'flex items-center'}>
             <ChevronRightIcon
-              className={"h-5 w-5 flex-shrink-0 text-gray-400"}
-              aria-hidden={"true"}
+              className={'h-5 w-5 flex-shrink-0 text-gray-400'}
+              aria-hidden={'true'}
             />
             <Link
               href={currentRoute}
               className={
-                "ml-4 text-sm font-medium text-gray-500 hover:text-gray-700"
+                'ml-4 text-sm font-medium text-gray-500 hover:text-gray-700'
               }
-              aria-current={"page"}
+              aria-current={'page'}
             >
               {currentPage}
             </Link>
