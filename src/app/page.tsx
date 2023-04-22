@@ -9,9 +9,9 @@ interface ListItemProps {
 
 const ListItem = ({ children, year }: ListItemProps) => {
   return (
-    <li className={'mt-4 flex'}>
-      <p className={'ml-2'}>
-        <span className={'text-indigo-600'}>{year}</span> - {children}
+    <li className="mt-4 flex">
+      <p className="ml-2">
+        <span className="text-indigo-600">{year}</span> - {children}
       </p>
     </li>
   );
@@ -19,33 +19,25 @@ const ListItem = ({ children, year }: ListItemProps) => {
 
 const Page = () => {
   return (
-    <div className={'bg-white py-12 sm:py-12'}>
-      <div
-        className={
-          'grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12'
-        }
-      >
-        <div className={'m-auto lg:pl-20'}>
-          <div className={'max-w-xs px-2.5 lg:max-w-none'}>
+    <div className="bg-white py-12 sm:py-12">
+      <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
+        <div className="m-auto lg:pl-20">
+          <div className="max-w-xs px-2.5 lg:max-w-none">
             <Image
               src={darrenImage}
-              alt={'profile image'}
-              className={
-                'aspect-square rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800'
-              }
+              alt="profile image"
+              className="aspect-square rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
             />
           </div>
         </div>
-        <div className={'lg:order-first lg:row-span-1'}>
-          <h1 className={'text-4xl font-bold tracking-tight sm:text-5xl'}>
+        <div className="lg:order-first lg:row-span-1">
+          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
             Darren Wong
           </h1>
-          <p
-            className={'pt-2 text-base font-semibold leading-7 text-indigo-600'}
-          >
+          <p className="pt-2 text-base font-semibold leading-7 text-indigo-600">
             Software Engineer
           </p>
-          <div className={'mt-6 space-y-7 text-base'}>
+          <div className="mt-6 space-y-7 text-base">
             <p>
               Meet Darren, a skilled and dynamic software engineer who is
               passionate about exploring the latest technologies and pushing the
@@ -73,40 +65,40 @@ const Page = () => {
           </div>
         </div>
         <div>
-          <p className={'text-base font-semibold leading-7 text-indigo-600'}>
+          <p className="text-base font-semibold leading-7 text-indigo-600">
             Timeline
           </p>
-          <div className={'px-2'}>
-            <ul role={'list'}>
-              <ListItem year={'1997'}>Birth year 🎂.</ListItem>
-              <ListItem year={'2000'}>
+          <div className="px-2">
+            <ul role="list">
+              <ListItem year="1997">Birth year 🎂.</ListItem>
+              <ListItem year="2000">
                 Got my first video game console and video game - Nintendo 64,
                 Mario Kart 64.
               </ListItem>
-              <ListItem year={'2005'}>
+              <ListItem year="2005">
                 Became interested in computers and computer games, downloaded my
                 first MMORPG - MapleStory.
               </ListItem>
-              <ListItem year={'2012'}>
+              <ListItem year="2012">
                 Took my first web development class in high school.
               </ListItem>
             </ul>
           </div>
         </div>
         <div>
-          <div className={'-mt-16 px-2 lg:mt-10'}>
-            <ul role={'list'}>
-              <ListItem year={'2016'}>
+          <div className="-mt-16 px-2 lg:mt-10">
+            <ul role="list">
+              <ListItem year="2016">
                 Interned at a local startup to do front end web development.
               </ListItem>
-              <ListItem year={'2017'}>
+              <ListItem year="2017">
                 Tutored K-12 students in Math and Reading.
               </ListItem>
-              <ListItem year={'2019'}>
+              <ListItem year="2019">
                 Graduated from University of Nevada, Las Vegas with a Bachelor
                 of Science in Computer Science.
               </ListItem>
-              <ListItem year={'2021'}>
+              <ListItem year="2021">
                 Began career as a Software Developer at General Motors.
               </ListItem>
             </ul>
