@@ -64,46 +64,46 @@ const Page = () => {
             </p>
           </div>
         </div>
-        <div>
-          <p className="text-base font-semibold leading-7 text-indigo-600">
-            Timeline
-          </p>
-          <div className="px-2">
-            <ul role="list">
-              <ListItem year="1997">Birth year 🎂.</ListItem>
-              <ListItem year="2000">
-                Got my first video game console and video game - Nintendo 64,
-                Mario Kart 64.
-              </ListItem>
-              <ListItem year="2005">
-                Became interested in computers and computer games, downloaded my
-                first MMORPG - MapleStory.
-              </ListItem>
-              <ListItem year="2012">
-                Took my first web development class in high school.
-              </ListItem>
-            </ul>
-          </div>
-        </div>
-        <div>
-          <div className="-mt-16 px-2 lg:mt-10">
-            <ul role="list">
-              <ListItem year="2016">
-                Interned at a local startup to do front end web development.
-              </ListItem>
-              <ListItem year="2017">
-                Tutored K-12 students in Math and Reading.
-              </ListItem>
-              <ListItem year="2019">
-                Graduated from University of Nevada, Las Vegas with a Bachelor
-                of Science in Computer Science.
-              </ListItem>
-              <ListItem year="2021">
-                Began career as a Software Developer at General Motors.
-              </ListItem>
-            </ul>
-          </div>
-        </div>
+        {/*<div>*/}
+        {/*  <p className="text-base font-semibold leading-7 text-indigo-600">*/}
+        {/*    Timeline*/}
+        {/*  </p>*/}
+        {/*  <div className="px-2">*/}
+        {/*    <ul role="list">*/}
+        {/*      <ListItem year="1997">Birth year 🎂.</ListItem>*/}
+        {/*      <ListItem year="2000">*/}
+        {/*        Got my first video game console and video game - Nintendo 64,*/}
+        {/*        Mario Kart 64.*/}
+        {/*      </ListItem>*/}
+        {/*      <ListItem year="2005">*/}
+        {/*        Became interested in computers and computer games, downloaded my*/}
+        {/*        first MMORPG - MapleStory.*/}
+        {/*      </ListItem>*/}
+        {/*      <ListItem year="2012">*/}
+        {/*        Took my first web development class in high school.*/}
+        {/*      </ListItem>*/}
+        {/*    </ul>*/}
+        {/*  </div>*/}
+        {/*</div>*/}
+        {/*<div>*/}
+        {/*  <div className="-mt-16 px-2 lg:mt-10">*/}
+        {/*    <ul role="list">*/}
+        {/*      <ListItem year="2016">*/}
+        {/*        Interned at a local startup to do front end web development.*/}
+        {/*      </ListItem>*/}
+        {/*      <ListItem year="2017">*/}
+        {/*        Tutored K-12 students in Math and Reading.*/}
+        {/*      </ListItem>*/}
+        {/*      <ListItem year="2019">*/}
+        {/*        Graduated from University of Nevada, Las Vegas with a Bachelor*/}
+        {/*        of Science in Computer Science.*/}
+        {/*      </ListItem>*/}
+        {/*      <ListItem year="2021">*/}
+        {/*        Began career as a Software Developer at General Motors.*/}
+        {/*      </ListItem>*/}
+        {/*    </ul>*/}
+        {/*  </div>*/}
+        {/*</div>*/}
       </div>
     </div>
   );
